@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-# compilar scss y ts
-node-sass .\\src\\assets\\scss\\main.scss  .\\src\\assets\\css\\main.css
+
 
 
 echo building.... en marcha
@@ -11,3 +10,5 @@ mkdir ./dist
 
 cp -r ./src/* ./dist
 
+# compilar scss y ts
+node-sass .\\dist\\assets\\scss\\main.scss > .\\dist\\assets\\css\\main.css

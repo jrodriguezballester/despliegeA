@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 echo despliege en marcha
-rm -rf C:/xampp/htdocs/nba
+rm -rf C:/xampp/htdocs/despliegeA
 
-mkdir C:/xampp/htdocs/nba
+mkdir C:/xampp/htdocs/despliegeA
 
-cp -r ./src/*.* C:/xampp/htdocs/nba/
+cp -r ./dist/* C:/xampp/htdocs/despliegeA
